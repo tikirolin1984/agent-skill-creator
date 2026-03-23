@@ -1,0 +1,273 @@
+{
+  "name": "ai-search-audit-cskill",
+  "owner": {
+    "name": "Agent Creator",
+    "email": "noreply@example.com"
+  },
+
+  "metadata": {
+    "description": "Comprehensive AI search visibility audit and GEO optimization framework for brand dominance across ChatGPT, Perplexity, Google AI Overviews, Claude, and Copilot",
+    "version": "1.0.0",
+    "created": "2026-03-23",
+    "updated": "2026-03-23",
+    "language": "en-US",
+    "features": [
+      "7-pillar AI search audit framework",
+      "Technical crawlability analysis (robots.txt, llms.txt, schema markup)",
+      "Content extractability scoring",
+      "Entity authority assessment",
+      "Multi-model optimization (ChatGPT, Perplexity, Gemini, AI Overviews)",
+      "Share of Model (SoM) measurement",
+      "GEO readiness scoring with 50-point checklist",
+      "Competitive AI visibility benchmarking",
+      "Actionable optimization roadmap generation"
+    ]
+  },
+
+  "plugins": [
+    {
+      "name": "ai-search-audit-plugin",
+      "description": "Comprehensive AI Search Visibility Audit and Generative Engine Optimization (GEO) skill. Audits websites and brands for AI search dominance across ChatGPT, Google AI Overviews, Perplexity, Claude, and Copilot. Analyzes technical foundations (robots.txt AI crawler access, llms.txt implementation, JSON-LD schema markup, structured data), content extractability (answer-first structure, FAQ optimization, TLDR patterns), entity authority (Knowledge Graph presence, sameAs linking, topical coverage depth), multi-model optimization (ChatGPT citation patterns, Perplexity source attribution, Gemini paragraph extraction, AI Overview inclusion), brand mention tracking, citation rate measurement, Share of Model scoring, and competitive benchmarking. Generates scored audit reports with prioritized optimization roadmaps. Covers the full spectrum from technical SEO-for-AI to content strategy for generative engine visibility.",
+      "source": "./",
+      "strict": false,
+      "skills": ["./"]
+    }
+  ],
+
+  "activation": {
+    "_comment": "Layer 1: Enhanced keywords (70 keywords for 98% reliability)",
+    "keywords": [
+      "_comment": "Category 1: Core capabilities (15 keywords)",
+      "AI search audit",
+      "AI search visibility",
+      "AI search optimization",
+      "GEO audit",
+      "GEO optimization",
+      "generative engine optimization",
+      "AI search dominance",
+      "AI visibility audit",
+      "brand AI visibility",
+      "AI citation audit",
+      "AI search readiness",
+      "AI crawlability check",
+      "AI search presence",
+      "LLM visibility",
+      "AI search strategy",
+
+      "_comment": "Category 2: Platform-specific (12 keywords)",
+      "ChatGPT visibility",
+      "Perplexity visibility",
+      "Google AI Overviews",
+      "AI Overviews optimization",
+      "ChatGPT citation",
+      "Perplexity citation",
+      "Claude search visibility",
+      "Copilot search visibility",
+      "Gemini visibility",
+      "ChatGPT brand mention",
+      "Perplexity brand mention",
+      "AI search engines",
+
+      "_comment": "Category 3: Technical audit (13 keywords)",
+      "robots.txt AI crawlers",
+      "llms.txt implementation",
+      "schema markup AI",
+      "structured data AI search",
+      "JSON-LD AI optimization",
+      "AI crawler access",
+      "GPTBot access",
+      "ClaudeBot access",
+      "PerplexityBot access",
+      "AI bot crawling",
+      "technical AI SEO",
+      "AEO audit",
+      "answer engine optimization",
+
+      "_comment": "Category 4: Content & strategy (15 keywords)",
+      "content AI extractability",
+      "AI content optimization",
+      "Share of Model",
+      "brand mention rate",
+      "AI citation rate",
+      "AI search ranking",
+      "GEO strategy",
+      "AI brand authority",
+      "entity authority AI",
+      "topical authority AI",
+      "AI content structure",
+      "FAQ optimization AI",
+      "AI search competitive analysis",
+      "AI recommendation rate",
+      "optimize for AI answers",
+
+      "_comment": "Category 5: Natural language (15 keywords)",
+      "how visible is my brand in AI search",
+      "does ChatGPT mention my brand",
+      "audit my site for AI search",
+      "check AI search presence",
+      "how to rank in AI search",
+      "how to appear in ChatGPT",
+      "how to get cited by Perplexity",
+      "improve AI search visibility",
+      "AI search readiness check",
+      "is my brand AI-ready",
+      "prepare brand for AI search",
+      "AI search dominance strategy",
+      "brand visibility in AI",
+      "optimize for generative search",
+      "show up in AI search results"
+    ],
+
+    "_comment": "Layer 2: Enhanced pattern matching (12 patterns for 98% coverage)",
+    "patterns": [
+      "_comment": "Pattern 1: AI search audit requests",
+      "(?i)(audit|analyze|assess|evaluate|check|review|scan)\\s+(my\\s+)?(website|site|brand|domain|business|company)\\s+(for|in)\\s+(AI|artificial intelligence|generative|LLM)\\s+(search|visibility|presence|citations?|mentions?)",
+
+      "_comment": "Pattern 2: GEO optimization requests",
+      "(?i)(optimize|improve|boost|increase|enhance|maximize)\\s+(my\\s+)?(brand|site|website|content|domain)\\s+(for|in|across)\\s+(AI|generative|LLM)\\s+(search|engines?|platforms?|visibility|results?)",
+
+      "_comment": "Pattern 3: Platform-specific visibility",
+      "(?i)(how|why|does|is|can)\\s+(my\\s+)?(brand|site|website|company|business)\\s+(show up|appear|visible|cited|mentioned|rank)\\s+(in|on|by|across)\\s+(ChatGPT|Perplexity|Google AI|AI Overviews|Claude|Copilot|Gemini)",
+
+      "_comment": "Pattern 4: Technical AI readiness",
+      "(?i)(check|verify|audit|analyze|review)\\s+(robots\\.txt|llms\\.txt|schema|structured data|JSON-LD|crawler access)\\s+(for|with|against)\\s+(AI|GPTBot|ClaudeBot|PerplexityBot|LLM)",
+
+      "_comment": "Pattern 5: Competitive AI benchmarking",
+      "(?i)(compare|benchmark|competitive|competitor)\\s+(AI\\s+)?(search|visibility|presence|citation|mention)\\s+(analysis|audit|report|assessment|comparison)",
+
+      "_comment": "Pattern 6: Share of Model measurement",
+      "(?i)(measure|track|monitor|calculate|assess)\\s+(Share of Model|SoM|citation rate|mention rate|AI visibility|brand mention)\\s+(for|across|in)\\s+(AI|generative|LLM)",
+
+      "_comment": "Pattern 7: Content optimization for AI",
+      "(?i)(structure|format|optimize|prepare|write)\\s+(content|pages?|articles?|blog)\\s+(for|to rank in|to appear in)\\s+(AI|generative|LLM|ChatGPT|Perplexity)\\s+(search|answers?|citations?|results?)",
+
+      "_comment": "Pattern 8: AI search strategy development",
+      "(?i)(develop|create|build|design|plan)\\s+(an?\\s+)?(AI search|GEO|generative engine|AI visibility|AI dominance)\\s+(strategy|plan|roadmap|framework|approach)",
+
+      "_comment": "Pattern 9: Natural language questions",
+      "(?i)(how to|what can I|can you|help me|I need to|I want to)\\s+(improve|boost|get|achieve|increase|optimize)\\s+(AI|generative|LLM)\\s+(search|visibility|presence|citations?|mentions?|ranking)",
+
+      "_comment": "Pattern 10: Workflow automation",
+      "(?i)(every|daily|weekly|monthly|regularly)\\s+(I|we)\\s+(have to|need to|should|must)\\s+(audit|check|monitor|track)\\s+(AI|generative)\\s+(search|visibility|presence|citations?|mentions?)",
+
+      "_comment": "Pattern 11: Entity authority building",
+      "(?i)(build|improve|strengthen|establish|increase)\\s+(entity|brand|topical|domain)\\s+(authority|presence|recognition)\\s+(for|in|across)\\s+(AI|generative|LLM)\\s+(search|engines?|platforms?)",
+
+      "_comment": "Pattern 12: Multi-model optimization",
+      "(?i)(optimize|adapt|tailor|customize)\\s+(content|strategy|approach)\\s+(for|across)\\s+(multiple\\s+)?(AI models?|LLMs?|ChatGPT\\s+and\\s+Perplexity|AI platforms?|generative engines?)"
+    ]
+  },
+
+  "contextual_filters": {
+    "domain_relevance": {
+      "high": ["marketing", "SEO", "digital marketing", "content strategy", "brand management", "web development"],
+      "medium": ["business strategy", "competitive analysis", "market research"],
+      "low": ["software development", "data science"]
+    },
+    "task_relevance": {
+      "high": ["audit", "optimization", "visibility assessment", "competitive analysis", "strategy development"],
+      "medium": ["content creation", "technical setup", "monitoring"],
+      "low": ["general research", "learning"]
+    }
+  },
+
+  "capabilities": {
+    "technical_audit": true,
+    "content_audit": true,
+    "entity_audit": true,
+    "multi_model_analysis": true,
+    "competitive_benchmarking": true,
+    "roadmap_generation": true,
+    "scoring": true
+  },
+
+  "usage": {
+    "example": "Audit my website example.com for AI search visibility across ChatGPT and Perplexity",
+
+    "input_types": [
+      "Website URL or domain name",
+      "Brand name for competitive analysis",
+      "Industry/vertical for benchmarking",
+      "Target AI platforms (ChatGPT, Perplexity, Google AI Overviews, etc.)",
+      "Competitor domains for comparison"
+    ],
+
+    "output_types": [
+      "Scored audit report (50-point GEO readiness assessment)",
+      "Technical crawlability analysis with fix recommendations",
+      "Content extractability scorecard",
+      "Entity authority assessment",
+      "Multi-model visibility matrix",
+      "Competitive AI visibility benchmark",
+      "Prioritized optimization roadmap with effort/impact scoring",
+      "Implementation timeline with quick wins vs. long-term plays"
+    ],
+
+    "when_to_use": [
+      "User wants to audit their website for AI search readiness",
+      "User asks about brand visibility in ChatGPT, Perplexity, or AI Overviews",
+      "User mentions GEO or generative engine optimization",
+      "User wants to improve AI search citations or mentions",
+      "User needs a competitive analysis of AI search visibility",
+      "User asks about robots.txt, llms.txt, or schema for AI crawlers",
+      "User wants to develop an AI search optimization strategy",
+      "User needs Share of Model or AI citation measurement",
+      "User asks how to appear in AI-generated answers",
+      "User mentions AI search dominance or AI-first search strategy"
+    ],
+
+    "when_not_to_use": [
+      "User asks about traditional SEO only (no AI search context)",
+      "User wants to run Google Ads or PPC campaigns",
+      "User asks about social media marketing without AI search angle",
+      "User wants to build an AI chatbot or LLM application",
+      "User asks about email marketing",
+      "User wants web design without AI search optimization context",
+      "User asks about programmatic advertising"
+    ]
+  },
+
+  "test_queries": [
+    "_comment": "Core capability tests (8 queries)",
+    "Audit my website for AI search visibility",
+    "How visible is my brand in ChatGPT and Perplexity?",
+    "Run a GEO audit on example.com",
+    "Check if my robots.txt blocks AI crawlers",
+    "What's my Share of Model score vs competitors?",
+    "Analyze my content structure for AI extractability",
+    "Does my schema markup support AI search?",
+    "How do I appear in Google AI Overviews?",
+
+    "_comment": "Platform-specific tests (6 queries)",
+    "Does ChatGPT cite my brand when asked about our industry?",
+    "How can I get Perplexity to reference my content?",
+    "Optimize my site for Google AI Overviews inclusion",
+    "Check my visibility across ChatGPT, Perplexity, and Claude",
+    "Why doesn't my brand appear in AI search results?",
+    "Benchmark my AI visibility against competitors",
+
+    "_comment": "Technical audit tests (6 queries)",
+    "Check if GPTBot can crawl my website",
+    "Do I need an llms.txt file?",
+    "Audit my structured data for AI search optimization",
+    "Is my JSON-LD schema helping me in AI search?",
+    "Check if Cloudflare is blocking AI crawlers on my site",
+    "Review my technical AI search readiness",
+
+    "_comment": "Strategy tests (6 queries)",
+    "Create an AI search dominance strategy for my brand",
+    "Build a GEO optimization roadmap",
+    "What content changes will improve my AI citations?",
+    "How do I prepare my brand for AI search in 2026?",
+    "Develop a plan to dominate AI search in my industry",
+    "What's the fastest way to improve AI search visibility?",
+
+    "_comment": "Natural language tests (6 queries)",
+    "How to rank in AI search?",
+    "Can you help me show up in ChatGPT answers?",
+    "I want to be cited more often by AI search engines",
+    "Every week I need to track my brand's AI visibility",
+    "Help me understand my AI search presence",
+    "What do I need to do to get my brand into AI answers?"
+  ]
+}
